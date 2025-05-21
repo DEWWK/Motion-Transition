@@ -582,7 +582,166 @@
         </div>
         </div>
     </section>
-    
+    <!-- Examples -->
+    <section class="hero is-small is-light">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="column is-centered has-text-centered">
+                    <h2 class="title is-3">线性增长loss</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            旋转term * 0.5 + 位置term * 0.5,其中位置term从首帧到尾帧权重线性增加,使用卓凡的预训练模型
+                        </p>
+                    </div>
+
+                    <div class="columns is-centered">
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/3/00/0000-0061.mp4" type="video/mp4">
+                            </video>
+                            <p>sample00</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/3/01/0000-0101.mp4" type="video/mp4">
+                            </video>
+                            <p>sample01</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/3/02/0000-0053.mp4" type="video/mp4">
+                            </video>
+                            <p>sample02</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <div class="columns is-centered">
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/3/03/0000-0073.mp4" type="video/mp4">
+                            </video>
+                            <p>sample03</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/3/04/0000-0041.mp4" type="video/mp4">
+                            </video>
+                            <p>sample04</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/3/05/0000-0057.mp4" type="video/mp4">
+                            </video>
+                            <p>sample05</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="column is-centered has-text-centered">
+                    <div class="content has-text-justified">
+                        <p>
+                            Generated results are still high-quality when keyframes are placed more sparsely.
+                        </p>
+                    </div>
+                    <div class="columns is-centered">
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="55%">
+                                <source src="static/videos/sparse_T=40.mp4" type="video/mp4">
+                            </video>
+                            <p>Keyframes every 40 frames</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="55%">
+                                <source src="static/videos/sparse_K=4.mp4" type="video/mp4">
+                            </video>
+                            <p>Keyframes randomly placed at frames 35-40-80-140</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="hero is-small is-light">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="column is-centered has-text-centered">
+                    <h2 class="title is-3">重新训练</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            旋转term * 0.5 + 位置term * 0.5,其中位置term从首帧到尾帧权重线性增加,重新训练
+                        </p>
+                    </div>
+
+                    <div class="columns is-centered">
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/4/00/0000-0061.mp4" type="video/mp4">
+                            </video>
+                            <p>sample00</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/4/01/0000-0101.mp4" type="video/mp4">
+                            </video>
+                            <p>sample01</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/4/02/0000-0053.mp4" type="video/mp4">
+                            </video>
+                            <p>sample02</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-centered has-text-centered">
+                    <div class="columns is-centered">
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/4/03/0000-0073.mp4" type="video/mp4">
+                            </video>
+                            <p>sample03</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/4/04/0000-0042.mp4" type="video/mp4">
+                            </video>
+                            <p>sample04</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="100%">
+                                <source src="static/myVideo/4/05/0000-0057.mp4" type="video/mp4">
+                            </video>
+                            <p>sample05</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="column is-centered has-text-centered">
+                    <div class="content has-text-justified">
+                        <p>
+                            Generated results are still high-quality when keyframes are placed more sparsely.
+                        </p>
+                    </div>
+                    <div class="columns is-centered">
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="55%">
+                                <source src="static/videos/sparse_T=40.mp4" type="video/mp4">
+                            </video>
+                            <p>Keyframes every 40 frames</p>
+                        </div>
+                        <div class="column is-centered has-text-centered">
+                            <video poster="" id="tree" playsinline autoplay muted loop width="55%">
+                                <source src="static/videos/sparse_K=4.mp4" type="video/mp4">
+                            </video>
+                            <p>Keyframes randomly placed at frames 35-40-80-140</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        </div>
+    </section>
 
     <!-- <section class="hero is-small is-light">
         <div class="hero-body">
